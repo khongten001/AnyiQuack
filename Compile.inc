@@ -79,3 +79,11 @@
     {.$DEFINE OutputDebugGCFree}
   {$ENDIF}
 {$ENDIF}
+
+{**
+ * If you want to use AnyiQuark __only__ in FireMonkey applications,
+ * enable this definition.
+ *
+ * Otherwise add the FMX conditional to your Firemonkey project.
+ *}
+{.$DEFINE FMX}

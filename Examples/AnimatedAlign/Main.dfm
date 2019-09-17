@@ -3,7 +3,7 @@ object MainForm: TMainForm
   Top = 0
   Caption = 'Animated Align with AnyiQuack'
   ClientHeight = 337
-  ClientWidth = 624
+  ClientWidth = 777
   Color = clAppWorkSpace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -13,12 +13,12 @@ object MainForm: TMainForm
   OldCreateOrder = False
   OnResize = FormResize
   DesignSize = (
-    624
+    777
     337)
   PixelsPerInch = 96
   TextHeight = 13
   object Label3: TLabel
-    Left = 373
+    Left = 526
     Top = 256
     Width = 240
     Height = 39
@@ -33,10 +33,9 @@ object MainForm: TMainForm
     ExplicitLeft = 384
   end
   object TopPanel: TPanel
-    Tag = 1
     Left = 0
     Top = 0
-    Width = 624
+    Width = 777
     Height = 44
     Align = alTop
     BevelEdges = [beBottom]
@@ -44,7 +43,6 @@ object MainForm: TMainForm
     BevelOuter = bvNone
     ParentBackground = False
     TabOrder = 0
-    ExplicitWidth = 635
     object Label1: TLabel
       Left = 164
       Top = 1
@@ -130,10 +128,9 @@ object MainForm: TMainForm
     end
   end
   object BottomPanel: TPanel
-    Tag = 1
     Left = 0
     Top = 304
-    Width = 624
+    Width = 777
     Height = 33
     Align = alBottom
     BevelEdges = [beTop]
@@ -141,10 +138,9 @@ object MainForm: TMainForm
     BevelOuter = bvNone
     ParentBackground = False
     TabOrder = 1
-    ExplicitWidth = 635
     object AddPanelButton: TButton
       AlignWithMargins = True
-      Left = 546
+      Left = 699
       Top = 3
       Width = 75
       Height = 25
@@ -152,20 +148,18 @@ object MainForm: TMainForm
       Caption = '&Add Panel'
       TabOrder = 0
       OnClick = AddPanelButtonClick
-      ExplicitLeft = 557
     end
     object RemovePanelButton: TButton
       AlignWithMargins = True
-      Left = 458
+      Left = 592
       Top = 3
-      Width = 82
+      Width = 101
       Height = 25
       Align = alRight
       Caption = '&Remove Panel'
       Enabled = False
       TabOrder = 1
       OnClick = RemovePanelButtonClick
-      ExplicitLeft = 469
     end
   end
 end
